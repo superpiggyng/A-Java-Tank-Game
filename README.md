@@ -2,9 +2,9 @@ Description of Project:
 A game in Java using the Processing library for graphics and gradle as a dependency manager. This project hopes to demonstrate the use of object-oriented programming (OOP) design principles. In the game, players control tanks which can aim and fire at each other. Players gain score for hitting another player’s tank, causing them to lose health. The game has 3 different levels. After all levels are completed, the player with the highest carry-over score wins. The game can then be restarted by pressing "R" on the keyboard.
 
 To run the game:
-1. Ensure Gradle is installed
-2. Pull the git repository
-3. Within the folder, "gradle run"
+1. Ensure Gradle is installed on your system.
+2. Clone the repository by running "git clone https://github.com/superpiggyng/A-Java-Tank-Game"
+3. Run the game with "gradle run"
 
 Encapsulation and Single Responsibility Principle:
 The benefits of encapsulation became clear when I needed to change the terrain processing logic late in the project. Since the terrain-related code was contained within the ProcessTerrain class, I could make changes without affecting other parts of the program. This showed me the importance of keeping related functionality together allowing for ease of management and future improvements to the code.
