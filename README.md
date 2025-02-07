@@ -8,7 +8,7 @@ To run the game:
 3. Clone the repository by running "git clone https://github.com/superpiggyng/A-Java-Tank-Game"
 4.
    - Run the game with "gradle run" if gradle is installed on your system
-   - Run the game with "./gradlew run" instead of gradle build if gradle is not installed on your system.
+   - Run the game with "./gradlew run" instead of "gradle run" if gradle is not installed on your system.
 
 Encapsulation and Single Responsibility Principle:
 The benefits of encapsulation became clear when I needed to change the terrain processing logic late in the project. Since the terrain-related code was contained within the ProcessTerrain class, I could make changes without affecting other parts of the program. This showed me the importance of keeping related functionality together allowing for ease of management and future improvements to the code.
