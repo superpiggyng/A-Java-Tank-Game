@@ -3,3 +3,4 @@
 /.gradle/
 .DS_Store
 src/test/java/Tanks/
+bin/test/Tanks
