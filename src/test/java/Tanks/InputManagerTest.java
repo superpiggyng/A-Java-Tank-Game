@@ -91,7 +91,7 @@ public class InputManagerTest {
         // verify(mockTank).stopCommand();
         // inputManager.keyReleased(38);
     }
-    
+
     @Test
     public void testRotateTurretRight() {
         when(mockKeyEvent.getKeyCode()).thenReturn(40);
@@ -103,17 +103,6 @@ public class InputManagerTest {
         inputManager.keyReleased(40);
 
     }
-
-    // @Test
-    // public void testFire() {
-    //     when(mockKeyEvent.getKeyCode()).thenReturn(32);
-
-    //     inputManager.keyPressed(32);
-    //     inputManager.update();
-    //     verify(mockTank).fire();
-    //     inputManager.keyReleased(32);
-
-    // }
 
     @Test
     public void testIncreasePower() {
