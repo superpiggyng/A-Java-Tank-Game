@@ -2,9 +2,11 @@ Description of Project:
 A game in Java using the Processing library for graphics and gradle as a dependency manager. This project hopes to demonstrate the use of object-oriented programming (OOP) design principles. In the game, players control tanks which can aim and fire at each other. Players gain score for hitting another player’s tank, causing them to lose health. The game has 3 different levels. After all levels are completed, the player with the highest carry-over score wins. The game can then be restarted by pressing "R" on the keyboard.
 
 To run the game:
-1. Ensure Gradle is installed on your system.
-2. Clone the repository by running "git clone https://github.com/superpiggyng/A-Java-Tank-Game"
-3.
+1. Ensure you have java installed:
+    - Recommended: java 8.0.402-amzn
+2. Ensure Gradle is installed on your system.
+3. Clone the repository by running "git clone https://github.com/superpiggyng/A-Java-Tank-Game"
+4.
    - Run the game with "gradle run" if gradle is installed on your system
    - Run the game with "./gradlew run" instead of gradle build if gradle is not installed on your system.
 
